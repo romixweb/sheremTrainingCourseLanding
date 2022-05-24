@@ -1,0 +1,40 @@
+@media screen 
+	and (min-width: 300px)
+	and (max-width: 767px) {
+	.fs-2 strong {
+		font-size: 1.5rem;
+	}
+	.fs-3 span {
+		font-size: 1.35rem;
+	}
+	.pt-375-767-1rem {
+		padding-top: 1rem !important;
+	}
+}
+@media screen
+	and (max-width: 437px) {
+	.showButtons437px {
+		display: none;
+	}
+}
+@media screen
+ and (min-width: 438px)	{
+	.hiddenButton438px {
+		display: none;
+	}
+}
+
+/* MainPage */
+.page-min-width {
+	min-width: 375px;
+}
+.bg-img-mainPage1 {
+	background-image: url("./img/mainPage3.jpg");
+}
+.bg-img-mainPage2 {
+	background-image: url("./img/mainPage2.jpg");
+}
+.bg-img-mainPage3 {
+	background-image: url("./img/mainPage1.jpg");
+}
+/* MainPage */
