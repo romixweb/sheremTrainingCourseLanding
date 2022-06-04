@@ -10,31 +10,53 @@
 	.pt-375-767-1rem {
 		padding-top: 1rem !important;
 	}
+	.formCallBack-marginX {
+		margin: 1rem !important;
+		padding: 1rem !important;
+	}
 }
 @media screen
-	and (max-width: 437px) {
-	.showButtons437px {
+	and (max-width: 479px) {
+	.showButtons479px {
 		display: none;
 	}
 }
 @media screen
- and (min-width: 438px)	{
-	.hiddenButton438px {
+ and (min-width: 478px)	{
+	.hiddenButton478px {
 		display: none;
+	}
+}
+@media (min-width: 768px) {
+	.rounded-top-0 {
+		border-radius: 0 0 1rem 1rem !important;
 	}
 }
 
 /* MainPage */
-.page-min-width {
-	min-width: 375px;
+.img-width-courseAbout {
+	max-width: 200px;
 }
-.bg-img-mainPage1 {
+.page-min-max-width {
+	min-width: 375px;
+	max-width: 1330px;
+}
+button > a {
+	text-decoration: none;
+}
+.bg-img-mainPage-Main1 {
 	background-image: url("./img/mainPage3.jpg");
 }
-.bg-img-mainPage2 {
+.bg-img-mainPage-Main2 {
 	background-image: url("./img/mainPage2.jpg");
 }
-.bg-img-mainPage3 {
+.bg-img-mainPage-Main3 {
 	background-image: url("./img/mainPage1.jpg");
+}
+.bg-img-mainPage-Push {
+	background-color: #25272a;
+}
+.bg-img-mainPage-CallBack {
+	background-image: url("./img/picWorkWeb4.jpg");
 }
 /* MainPage */
