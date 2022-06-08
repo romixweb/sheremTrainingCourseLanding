@@ -15,18 +15,6 @@
 		padding: 1rem !important;
 	}
 }
-@media screen
-	and (max-width: 479px) {
-	.showButtons479px {
-		display: none;
-	}
-}
-@media screen
- and (min-width: 478px)	{
-	.hiddenButton478px {
-		display: none;
-	}
-}
 @media (min-width: 768px) {
 	.rounded-top-0 {
 		border-radius: 0 0 1rem 1rem !important;
@@ -34,6 +22,21 @@
 }
 
 /* MainPage */
+
+/* Замена и сокрытие блоков кнопок */
+/* showButtons479pxAndMore hiddenButton478pxAndLess */
+.hiddenButton478pxAndLess {
+	display: none;
+}
+@media screen and (max-width: 479px) {
+	.hiddenButton478pxAndLess {
+		display: block;
+	}
+	.showButtons479pxAndMore {
+		display: none;
+	}
+}
+/* Замена и сокрытие блоков кнопок^ */
 .img-width-courseAbout {
 	max-width: 200px;
 }
@@ -43,6 +46,9 @@
 }
 button > a {
 	text-decoration: none;
+}
+.imgCarousel {
+	max-width: 130px;
 }
 .bg-img-mainPage-Main1 {
 	background-image: url("./img/mainPage3.jpg");
@@ -58,5 +64,8 @@ button > a {
 }
 .bg-img-mainPage-CallBack {
 	background-image: url("./img/picWorkWeb4.jpg");
+}
+.bg-img-mainPage-Review {
+	background-image: url("./img/mainPage4.jpg");
 }
 /* MainPage */
