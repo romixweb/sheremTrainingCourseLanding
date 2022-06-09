@@ -1,6 +1,16 @@
 # sheremTrainingCourseLanding
 sheremTrainingCourseLanding
 
+Релиз 0.4
+Реализация урока "h40 7.4 Цены, гарантии, реквизиты"
+
+Pull request
+	Main
+	- Добавлен .row Prices
+	- Добавить .row Guarantees
+	Footer
+	- Содержит реквизиты организаторов
+
 Релиз 0.3
 Реализация урока "h39 7.3 Отзывы"
 

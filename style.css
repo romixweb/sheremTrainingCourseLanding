@@ -24,7 +24,6 @@
 /* MainPage */
 
 /* Замена и сокрытие блоков кнопок */
-/* showButtons479pxAndMore hiddenButton478pxAndLess */
 .hiddenButton478pxAndLess {
 	display: none;
 }
@@ -50,6 +49,10 @@ button > a {
 .imgCarousel {
 	max-width: 130px;
 }
+.card-center {
+	margin-left: auto;
+	margin-right: auto;
+}
 .bg-img-mainPage-Main1 {
 	background-image: url("./img/mainPage3.jpg");
 }
@@ -67,5 +70,11 @@ button > a {
 }
 .bg-img-mainPage-Review {
 	background-image: url("./img/mainPage4.jpg");
+}
+.bg-img-mainPage-Prices {
+	background-image: url("./img/mainPage6.jpg");
+}
+.bg-img-mainPage-Guarantees {
+	background-image: url("./img/mainPage7.jpg");
 }
 /* MainPage */
