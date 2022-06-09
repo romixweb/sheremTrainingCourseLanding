@@ -7,9 +7,9 @@ sheremTrainingCourseLanding
 Pull request
 	Main
 	- Добавлен .row Prices
-	- Добавить .row Guarantees
+	- Добавлен .row Guarantees
 	Footer
-	- Содержит реквизиты организаторов
+	- С реквизитами организации
 
 Релиз 0.3
 Реализация урока "h39 7.3 Отзывы"
