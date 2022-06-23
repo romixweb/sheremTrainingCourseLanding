@@ -53,6 +53,10 @@ button > a {
 	margin-left: auto;
 	margin-right: auto;
 }
+.fa-solid {
+	font-size: 50px;
+	margin-bottom: 1rem;
+}
 .bg-img-mainPage-Main1 {
 	background-image: url("./img/mainPage3.jpg");
 }
@@ -76,5 +80,8 @@ button > a {
 }
 .bg-img-mainPage-Guarantees {
 	background-image: url("./img/mainPage7.jpg");
+}
+.bg-img-mainPage-WhatWeDo {
+	background-image: url("./img/mainPage5.jpg");
 }
 /* MainPage */

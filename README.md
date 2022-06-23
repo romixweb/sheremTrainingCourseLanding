@@ -1,6 +1,13 @@
 # sheremTrainingCourseLanding
 sheremTrainingCourseLanding
 
+Релиз 0.5
+h41 7.5 Дополнительные элементы
+
+Pull request
+	Main
+	- Добавлен .row WhatWeDo c 4 карточками
+
 Релиз 0.4
 Реализация урока "h40 7.4 Цены, гарантии, реквизиты"
 
